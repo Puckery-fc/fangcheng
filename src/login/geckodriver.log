@@ -1,0 +1,7 @@
+1520389564952	geckodriver	INFO	geckodriver 0.18.0
+1520389564962	geckodriver	INFO	Listening on 127.0.0.1:50660
+1520389565564	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1520389567059	Marionette	INFO	Listening on port 50664
+1520389567190	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://m1.auto.itc.cn/sohupchome/main_right_v2.js, line 3: TypeError: E[1] is undefined
+1520389585782	Marionette	INFO	Ceased listening

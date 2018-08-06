@@ -1,0 +1,15 @@
+'''
+Created on 2018年3月6日
+
+@author: Administrator
+'''
+from selenium import  webdriver
+import time
+driver = webdriver.Firefox()
+driver.get("http://www.baidu.com")
+driver.find_element_by_id("kw").clear()
+driver.find_element_by_id("kw").send_keys("麦德龙")
+driver.find_element_by_id("su").click()
+time.sleep(2)
+driver.find_element_by_partial_link_text("麦德龙中国官方网站").click()
+
